@@ -4,12 +4,10 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
-var Nav = require('Nav');
 var Examples = require('Examples');
-var WeatherForm = require('WeatherForm');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
+require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
 ReactDOM.render(
